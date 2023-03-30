@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_logos",
+  "info": {
+    "singularName": "website-logo",
+    "pluralName": "website-logos",
+    "displayName": "websiteLogo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
