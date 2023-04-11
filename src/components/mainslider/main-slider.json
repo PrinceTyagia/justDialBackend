@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_mainslider_main_sliders",
+  "info": {
+    "displayName": "MainSlider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "business_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::business-category.business-category"
+    },
+    "sub_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sub-category.sub-category"
+    }
+  }
+}

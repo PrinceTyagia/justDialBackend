@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_frontends",
+  "info": {
+    "singularName": "website-frontend",
+    "pluralName": "website-frontends",
+    "displayName": "website-frontend",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "mainslidercom": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "mainslider.main-slider"
+    }
+  }
+}
