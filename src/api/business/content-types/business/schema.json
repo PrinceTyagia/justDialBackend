@@ -61,6 +61,12 @@
     },
     "star": {
       "type": "integer"
+    },
+    "enquiries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::enquiry.enquiry",
+      "mappedBy": "business"
     }
   }
 }
